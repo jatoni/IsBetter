@@ -6,9 +6,9 @@ header.name{
     align-items: center;
 }
 div.logo{
-    width: 300px;
-    height: 10vh;
-    background-image: url('../assets/LogoIsBetter.png');
+    width: 450px;
+    height: 60vh;
+    background-image: url('../assets/Mydrawing.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
