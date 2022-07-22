@@ -4,6 +4,8 @@ $(document).ready(function(){
     });
     $('.menu').load('../views/menu.html', function(data){
         $(this).html(data);
-        console.log(data);
+    });
+    $('.about').load('../views/AboutUs.html', function(data){
+        $(this).html(data);
     });
 });

@@ -1,0 +1,24 @@
+div.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+
+div.section-about,
+div.img-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+section.txt-about {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+}
+section.txt-about > p{
+    text-align: justify;
+}
