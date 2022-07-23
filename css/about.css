@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:ital,wght@1,300&display=swap');
 div.about {
   width: 100%;
   height: 100vh;
@@ -17,8 +18,16 @@ div.img-about {
 section.txt-about {
   text-align: center;
   width: 90%;
-  padding: 10px;
 }
-section.txt-about > p{
-    text-align: justify;
+section.txt-about {
+  text-align: justify;
+  font-size: 3vh;
+  padding: 10px 0;
+  color: #7209b7;
+  font-family: 'Cormorant Garamond', serif;
+}
+section.txt-about h1:first-child {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4vh;
+  color: #354f52;
 }
