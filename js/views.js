@@ -8,4 +8,7 @@ $(document).ready(function(){
     $('.about').load('../views/AboutUs.html', function(data){
         $(this).html(data);
     });
+    $('.widSocial').load('../widgets/RedesSociales.html', function(data){
+        $(this).html(data);
+    });
 });

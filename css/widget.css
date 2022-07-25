@@ -1,0 +1,29 @@
+div.widget-first {
+  border: 3px solid;
+  position: fixed;
+  width: 170px;
+  height: 40vh;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+div.widget-social > div {
+  padding: 5px;
+  font-size: 5.5vh;
+}
+div.boton-menu {
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+.btn-1,
+.btn-2,
+.btn-3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
